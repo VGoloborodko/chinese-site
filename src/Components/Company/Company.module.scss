@@ -1,0 +1,72 @@
+.company {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    width: 1440px;
+    height: 419px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+
+    // background: rgb(110, 110, 255);
+    .common_block {
+        display: flex;
+        width: 1243px;
+        height: 419px;
+
+        // background: rgb(248, 151, 151);
+        .image {
+            width: 640px;
+            height: 419px;
+        }
+        .company_info {
+            width: 473px;
+            height: 372px;
+            margin-left: 130px;
+
+            // background: rgb(165, 203, 240);
+            & p:nth-child(1) {
+                margin-bottom: 16px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 41px;
+
+                color: #056088;
+            }
+            & p:nth-child(2) {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 29px;
+                margin-bottom: 16px;
+                
+                color: #434343;
+            }
+            .turnover {
+                display: flex;
+                margin-bottom: 32px;
+                & p:nth-child(n) {
+                    margin-right: 45px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 170%;
+    
+                    color: #056088;
+                }
+            }
+            button {
+                width: 158px;
+                height: 72px;
+    
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 27px;
+                cursor: pointer;
+                
+                color: #FFFFFF;
+                background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+            }
+        }
+    }
+}

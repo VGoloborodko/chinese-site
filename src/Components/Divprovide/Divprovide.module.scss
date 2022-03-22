@@ -1,0 +1,25 @@
+.divprovide {
+    width: 310px;
+    height: 240px;
+
+    // background: darkgray;
+    &:hover {
+        // border: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+        border: 1px solid;
+        border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+        border-image-slice: 1;
+    }
+    .icon {
+        width: 56px;
+        height: 56px;
+        margin: 20px 0 0 40px;
+
+        // background: thistle;
+    }
+    .header {
+        margin: 16px 0 0 40px;
+    }
+    .main {
+        margin: 16px 0 0 40px;
+    }
+}

@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 57px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    div {
+        cursor: pointer;
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background: linear-gradient(60deg, #056088 38%, #09A7CA 65%);
+            color: #0B2349;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            margin-bottom: -5px;
+            border-bottom: 2px solid;
+            border-image: linear-gradient(60deg, #056088 38%, #09A7CA 65%);
+            border-image-slice: 1;
+        }
+    }
+}

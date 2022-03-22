@@ -1,0 +1,70 @@
+.header {
+    width: 1440px;
+    height: 703px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    .info_text {
+        position: absolute;
+        margin: 30px 0 0 82px;
+        .logo {
+            width: 114px;
+            height: 78px;
+            margin-bottom: 83px;
+
+            // background: rgb(75, 75, 201, 0.4);
+        }
+        .bold_text {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 78px;
+            margin-bottom: 16px;
+
+            color: #FFFFFF;
+        }
+        .lite_text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            margin-bottom: 32px;
+
+
+            color: #FFFFFF;
+        }
+        button {
+            width: 158px;
+            height: 72px;
+
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            cursor: pointer;
+            
+            color: #FFFFFF;
+            background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+        }
+    }
+}
+
+.cover {
+    width: 1440px;
+    height: 690px;
+}
+
+.house {
+    display: flex;
+
+    width: 930px;
+    height: 703px;
+    margin-left: 510px;
+
+    // background: rgb(61, 61, 190);
+    .shadow {
+        // display: flex;
+        position: absolute;
+        width: 930px;
+        height: 703px;
+    }
+}
