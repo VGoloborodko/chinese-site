@@ -1,0 +1,117 @@
+.goods {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1080px;
+    margin-bottom: 150px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+
+    // background: rgba(119, 214, 255, 0.9);
+}
+
+.strip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 580px;
+
+    background: rgb(5, 96, 136, 0.9);
+}
+
+.one {
+    position: absolute;
+    display: flex;
+    width: 1300px;
+    height: 436px;
+    top: 0;
+
+    box-shadow: rgb(38, 57, 77) 10px 20px 30px -10px;
+
+    // background: forestgreen;
+    & p:first-child {
+        margin: 306px 0 0 76px;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 78px;
+        /* identical to box height */
+
+        // text-align: center;
+
+        color: #FFFFFF;
+    }
+    & p:last-child {
+        margin: 326px 0 0 315px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 27px */
+
+
+        color: #FFFFFF;
+    }
+}
+
+.two {
+    position: absolute;
+    display: flex;
+    width: 1300px;
+    height: 544px;
+    top: 540px;
+
+    // background: rgb(129, 247, 129);
+    & .card {
+        width: 420px;
+        height: 544px;
+        margin-right: 20px;
+
+        background: white;
+        box-shadow: rgb(38, 57, 77) 10px 20px 30px -10px;
+        // filter: drop-shadow(0px 8px 30px rgba(2, 57, 87, 0.15));
+        &:last-child {
+            margin-right: 0;
+        }
+        & p:nth-child(2) {
+            margin: 30px 0 0 30px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 41px;
+
+            color: #056088;
+        }
+        & p:nth-child(3) {
+            width: 342px;
+            height: 81px;
+            margin: 16px 0 0 30px;
+            // padding-right: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+
+            color: #434343;
+        }
+        button {
+            margin: 32px 0 0 30px;
+            width: 158px;
+            height: 72px;
+
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+            cursor: pointer;
+            
+            color: #FFFFFF;
+            background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+        }
+    }
+    .card_image {
+        width: 420px;
+        height: 250px;
+
+        background: honeydew;
+    }
+}

@@ -10,9 +10,17 @@
         position: absolute;
         margin: 30px 0 0 82px;
         .logo {
-            width: 114px;
+            font-family: 'Roboto';
+            font-style: normal;
+            width: 184px;
             height: 78px;
             margin-bottom: 83px;
+            font-weight: 700;
+            font-size: 26px;
+            // line-height: 77px;
+            margin-bottom: 50px;
+ 
+            color: #FFFFFF;
 
             // background: rgb(75, 75, 201, 0.4);
         }
