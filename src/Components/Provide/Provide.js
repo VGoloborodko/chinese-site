@@ -6,7 +6,7 @@ import Like from '../Provide/images/Like.svg';
 export default class Provide extends React.Component {
     render() {
         return (
-            <div className={style.provide}>
+            <div className={style.provide} id='advantage_nav'>
                 <div className={style.block}>
                     <p>我們提供</p>
                     <p>我們的服務包括協助<br/> 在購買的所有階段</p>

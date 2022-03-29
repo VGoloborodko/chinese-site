@@ -5,7 +5,7 @@ import Img from '../Company/images/Img.png';
 export default class Company extends React.Component {
     render() {
         return (
-            <div className={style.company}>
+            <div className={style.company} id='about_nav'>
                 <div className={style.common_block}>
                     <div className={style.image} style={{background: `url(${Img})`}}></div>
                     <div className={style.company_info}>

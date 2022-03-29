@@ -14,7 +14,7 @@ export default class Goods extends React.Component {
                     <p>提供范围广泛的建筑、装饰材料和家居用品。<br/> 我们致力于帮助您在建筑业务中取得成功，<br/>以最高的专业水平进行维修和装修工作，或应对如此艰巨的任务。</p>
                 </div>
                 <div className={style.strip}>
-                    <div className={style.two}>
+                    <div className={style.two} id='goods_nav'>
                         <div className={style.card}>
                             <div className={style.card_image} style={{ background: `url(${Marble})`}}></div>
                             <p>大理石</p>

@@ -5,7 +5,7 @@ import Rectangle from '../Form/Rectangle.png';
 export default class Form extends React.Component {
     render() {
         return (
-            <div className={style.form}>
+            <div className={style.form} id='form_nav'>
                 <div className={style.form_block}>
                     <div className={style.image} style={{background: `url(${Rectangle})`}}></div>
                     <div className={style.form_value}>

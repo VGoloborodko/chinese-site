@@ -20,3 +20,15 @@ textarea {
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+/* a:hover {
+    text-decoration: underline;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+} */

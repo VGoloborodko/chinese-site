@@ -71,5 +71,8 @@
         line-height: 41px;
 
         color: #FFFFFF;
+        & p {
+            cursor: pointer;
+        }
     }
 }
